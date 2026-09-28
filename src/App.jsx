@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header';
 import HeroCarousel from './components/HeroCarousel';
-import FeautredProducts from './components/FeautredProducts';
+import FeaturedProducts from './components/FeaturedProducts';
 import InfoCards from './components/InfoCards';
 import AboutSection from './components/AboutSection';
 import Footer from './components/Footer';
 import './styles/style.css';
 import './App.css'
 
-function TodoApp() {
+function FerrariShopApp() {
 
   return (
     <div>
@@ -19,7 +19,7 @@ function TodoApp() {
 
 function App() {
   return (
-    <TodoApp />
+    <FerrariShopApp />
   );
 }
 
